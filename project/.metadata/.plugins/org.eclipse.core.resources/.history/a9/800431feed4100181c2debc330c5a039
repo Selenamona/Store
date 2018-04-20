@@ -1,0 +1,5 @@
+package com.yixin.service.impl;
+
+public class UserServiceImpl {
+
+}

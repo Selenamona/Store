@@ -1,0 +1,17 @@
+package com.yixin.dao.impl;
+
+import com.yixin.dao.UserDao;
+import com.yixin.domain.User;
+import com.yixin.utils.DataSourceUtils;
+
+public class UserDaoImpl implements UserDao {
+	/**
+	 * 用户注册
+	 */
+	public void save(User user) {
+		
+		queryRunner qr = new QueryRunner(DataSourceUtils.getDataSource());
+		
+	}
+
+}

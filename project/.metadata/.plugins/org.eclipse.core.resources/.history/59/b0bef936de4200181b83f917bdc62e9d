@@ -1,0 +1,24 @@
+package com.yixin.web.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.yixin.web.servlet.base.BaseServlet;
+
+/**
+ * 用户模块
+ * Servlet implementation class UserServlet
+ */
+public class UserServlet extends BaseServlet {
+	private static final long serialVersionUID = 1L;
+
+	public String registerUI(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		return "/jsp/register.jsp";
+		
+	}
+
+   
+
+}

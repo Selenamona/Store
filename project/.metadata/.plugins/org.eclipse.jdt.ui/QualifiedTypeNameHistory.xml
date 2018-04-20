@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="com.yixin.web.servlet.base.BaseServlet"/>
+<fullyQualifiedTypeName name="com.yixin.domain.User"/>
+<fullyQualifiedTypeName name="org.apache.commons.beanutils.BeanUtils"/>
+<fullyQualifiedTypeName name="com.yixin.service.impl.UserServiceImpl"/>
+<fullyQualifiedTypeName name="com.yixin.service.UserService"/>
+<fullyQualifiedTypeName name="com.yixin.utils.UUIDUtils"/>
+<fullyQualifiedTypeName name="com.yixin.dao.UserDao"/>
+<fullyQualifiedTypeName name="com.yixin.dao.impl.UserDaoImpl"/>
+<fullyQualifiedTypeName name="com.yixin.constant.UserConstant"/>
+<fullyQualifiedTypeName name="com.yixin.utils.MailUtils"/>
+<fullyQualifiedTypeName name="com.yixin.utils.DataSourceUtils"/>
+<fullyQualifiedTypeName name="org.apache.commons.dbutils.QueryRunner"/>
+</qualifiedTypeNameHistroy>

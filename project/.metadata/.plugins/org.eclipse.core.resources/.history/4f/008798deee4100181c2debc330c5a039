@@ -1,0 +1,5 @@
+package com.yixin.constant;
+
+public interface UserConstant {
+
+}

@@ -1,0 +1,7 @@
+package com.yixin.dao.impl;
+
+import com.yixin.dao.UserDao;
+
+public class UserDaoImpl implements UserDao {
+
+}

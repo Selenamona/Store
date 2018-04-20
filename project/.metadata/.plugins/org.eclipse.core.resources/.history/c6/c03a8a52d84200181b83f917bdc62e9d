@@ -1,0 +1,14 @@
+package com.yixin.web.servlet;
+
+import com.yixin.web.servlet.base.BaseServlet;
+
+/**
+ * 用户模块
+ * Servlet implementation class UserServlet
+ */
+public class UserServlet extends BaseServlet {
+	private static final long serialVersionUID = 1L;
+
+   
+
+}

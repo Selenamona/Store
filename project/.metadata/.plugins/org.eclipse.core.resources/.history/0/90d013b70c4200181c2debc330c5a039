@@ -1,0 +1,45 @@
+package com.yixin.web.servlet.base;
+
+import java.io.IOException;
+import java.lang.reflect.Method;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * 通用的servlet
+ * Servlet implementation class BaseServlet
+ */
+public class BaseServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		try {
+			// 1、获取方法名称
+			String mName = request.getParameter("method");
+			
+			// 2、获取方法对象
+			
+			Method method = this.getClass().getMethod(mName,HttpServletRequest.class,HttpServletResponse.class);
+
+			// 3、方法执行，接收返回值
+			// 4、判断返回值是否为空，若不为空统一处理请求转发
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			throw new RuntimeExcption();
+			
+		}s
+			
+	
+		
+		
+	}
+
+}

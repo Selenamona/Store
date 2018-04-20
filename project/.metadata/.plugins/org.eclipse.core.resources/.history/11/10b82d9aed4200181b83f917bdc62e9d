@@ -1,0 +1,21 @@
+package com.yixin.dao.impl;
+
+import org.apache.commons.dbutils.QueryRunner;
+
+import com.yixin.dao.UserDao;
+import com.yixin.domain.User;
+import com.yixin.utils.DataSourceUtils;
+
+public class UserDaoImpl implements UserDao {
+	/**
+	 * 用户注册
+	 */
+	public void save(User user) {
+		
+		QueryRunner qr = new QueryRunner(DataSourceUtils.getDataSource());
+		String sql = "insert into user values(?,?,?,?,?,?,?,?,?,?);";
+		qr.update(sql,user.getUid(),user.getUsername(),user.getPassword());
+		
+	}
+
+}

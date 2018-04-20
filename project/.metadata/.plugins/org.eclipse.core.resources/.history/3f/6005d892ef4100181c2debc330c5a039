@@ -1,0 +1,7 @@
+package com.yixin.service.impl.copy;
+
+import com.yixin.service.UserService;
+
+public class UserServiceImpl implements UserService {
+
+}
