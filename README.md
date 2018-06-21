@@ -1,3 +1,3 @@
 # javapro-goddness
 
-JAVA项目实战：增删改查 JDBC MYSQL
+JAVA项目练习：增删改查 JDBC MYSQL
